@@ -55,13 +55,13 @@
   background: var(--nav-primary);
 }
 
-.nav-loin-cart {
+.nav-login-cart {
   display: flex;
   align-items: center;
   gap: 2.8125rem;
 }
 
-.nav-loin-cart button {
+.nav-login-cart button {
   width: 9.8125rem;
   height: 3.625rem;
   outline: none;
@@ -76,10 +76,25 @@
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
-.nav-loin-cart button:active {
-  color: var(--nav-secondary);
-  box-shadow: inset 4px 4px 12px #bebebe, inset -4px -4px 12px #ffffff;
+
+
+.nav-login-cart button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
 }
+.nav-login-cart button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 
 .nav-cart-count {
   width: 22px;

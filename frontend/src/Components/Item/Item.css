@@ -1,0 +1,32 @@
+@import '../Navbar/Navbar.css';
+
+.item{
+    width: 350px;
+}
+
+.item p{
+    margin: 60px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+
+.item-prices-new{
+    color: var(--nav-primary);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.item-prices-old{
+    color: var(--nav-secondary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
