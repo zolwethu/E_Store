@@ -1,0 +1,32 @@
+@import "../Navbar/Navbar.css";
+
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg);
+  margin-bottom: 100px;
+}
+
+.new-collections h1 {
+  color: var(--nav-primary);
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+
+.new-collections > hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  border: none;
+  background: var(--nav-primary);
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 30px;
+  
+}
