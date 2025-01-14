@@ -8,12 +8,10 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 0 140px;
+  padding: 0 140px; 
   margin-bottom: 150px;
   background-image: linear-gradient(180deg, #1c2f46 0%, #e0e0e0 60%);
   gap: 30px;
-  
-
 }
 
 .news-letter h1 {
